@@ -1,6 +1,6 @@
 FROM node:4.6
-WORKDIR /apps
-ADD . /apps
+WORKDIR /app
+ADD . /app
 RUN npm install
 EXPOSE 3000
 CMD npm start
